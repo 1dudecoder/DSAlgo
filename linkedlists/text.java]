@@ -1,0 +1,279 @@
+Chat App
+React JS  Firebase chat Application technology hosting  backend real-time database  Microsoft´s  IDE Visual Studio Code power shell in Windows 10 tools Chatting server web browser RECT JS design Feasibility Analysis Technical Feasibility Economical Feasibility Operational Feasibility
+
+
+
+
+Introduction
+
+The goal of this proposal was to construct Chat App using React JS and Firebase in request to chat among your friends, partners, family, and instructors. And, the inspiration of this proposed project was to plan and design a Chat App for the organization Solution Online that utilizations it for the exhibit to understudies in high schools in a developed country. 
+
+The Chat App was carried out to be utilized with the assistance of mainstream front-end technology, React JS, and Firebase hosting administrations, which offers a cost-free backend for the chat message and information. 
+
+The examination showed that the Firebase backend is a powerful real-time database with high security. The entire application was underlying Microsoft's notable IDE Visual Studio Code and the order line prompts and power shell in Windows 10. Every one of the tools showed the precision of the task 
+
+The reason for the chat application is to permit clients to have the option to chat with one another, 
+
+like an ordinary chat application. The clients will want to chat with one another 
+
+For the extent of the venture, the task will be tried as the program is being created. 
+
+A database for the clients enrolled will be created and tried, a menu will be created and tried, a customer/worker interface will be created and tried, and GUI's will be created and tried, for the clients' advantages. At the point when the chat application is close to fulfillment, seriously testing will be done in request to make it less cart or more client 
+agreeable.
+
+
+
+
+
+Objectives
+
+Chatting is a strategy for using technology to bring individuals and ideas together regardless of the topographical hindrances. The technology has been accessible for quite a long time yet the acknowledgment was very later. 
+
+Our undertaking is an illustration of a chat server. It is comprised of two applications - the customer application, which runs on the client's web browser and server application, runs on any hosting servers on the organization. 
+
+To begin chatting customer ought to get associated with server where they can do private and gathering chat. Safety efforts were taken during the final remaining one.
+
+
+SYSTEM ANALYSIS
+
+Identification of needs
+
+The reason for the chat application is to permit clients have the option to the chat with one another, similar to a typical chat application. The clients will actually want to chat with one another, most probable just from one client to another, no gathering chatting will be created, except if there is time to do as such. The chat application will be written in RECT JS, however, because of the absence of involvement with REACTJS, while developing the application, practicing methods with REACTJS AND FIREBASE and working on it however much as could reasonably be expected will help sharpen some REACTJS abilities and be more prepared to design the application.
+
+
+Preliminary Investigative
+
+All made a biological system that exhibits gigantic uniqueness, each offering freedom to draw in with companions and association in an unexpected chat climate. 
+
+Providing clients with rich highlights, these apps convey incredible live chat insight, allowing clients to share instant messages, pictures, emojis, stickers,  and other media content. 
+
+The capacity to send various configurations of media documents among numerous companions just as the ability to make customized bunches make the experience significantly really exciting. 
+
+As these top-of-the-line chat apps outperformed the initial reason for 'staying associated' by enabling style and polish, the client commitment subsequently developed more productive than any other time.
+
+
+
+Feasibility Study
+
+Feasibility Analysis is the interaction of determination of whether a task merits doing. Feasibility considers are embraced within close time constraints and regularly culminate in a composed and oral feasibility report. It helped in 
+making choices, for example, which programming to utilize and so forth.
+
+
+1.	Technical Feasibility
+2.	Economical Feasibility
+3.	Operational Feasibility
+
+
+Technical Feasibility
+
+Technical feasibility determines whether the work for the venture should be possible with the existing hardware, programming technology and accessible faculty. Technical feasibility of the proposed project alludes to the product and equipment necessities. 
+
+ChatAPP is created using the given programming. REACT structure to foster an interface for an application. Its execution of verification strategies is exceptionally straightforward we use Firebase . The proposed venture can be executed on any tablet or smart phone and any device using Internet .
+
+
+Economical Feasibility
+
+
+Economical feasibility determines whether there are adequate advantages in creating to make the expense satisfactory, or is the expense of the framework excessively high. The virtual products used to foster the proposed framework is cost proficient. Firebase and SQLite are accessible for nothing on Google Market.
+
+
+Type Cost Benefit
+
+
+Tangible Day to day expense of keeping our system running.
+Hosting, Server costing. Employee salary Offer accepted.
+Intangible Promoting the platform people to people.
+Satisfaction of users.Trust of users.
+People relying on platforms.
+
+
+
+Operational Feasibility
+
+Operational feasibility is the proportion of how well a proposed framework takes care of the issues, and makes the most of the chances identified during extension definition and how it fulfills the prerequisites identified in the necessities analysis period of framework improvement.
+
+
+
+Project Planning
+
+Project Scope
+
+Our goal is to maintain a relationship with the client where they will come and chat with their companion in free from any danger spot and make new companion in everyday occupied life .
+
+Project Scheduling
+
+This record provides an adaptable scheduling device and related timetable turn of events, analysis, and monitoring techniques that can be utilized by Implementing Agencies (IA) to get ready, screen, and report project plans. Our Project isn't unreasonably perplexing so we won't utilize complex scheduling strategy.
+
+
+PERTCHART
+
+
+
+
+GHANTCHART
+
+
+
+SOFTWARE REQUIREMENT SPECIFICATION
+
+PURPOSE
+
+Communication: To design an instant messaging answer for empower users to consistently speak with one another. 
+
+User-friendliness: The undertaking ought to be extremely simple to utilize enabling even an amateur individual to utilize it. 
+
+The reason for the chat application is to permit users have the option to the chat with one another, 
+
+like a typical chat application. The users will actually want to chat with one another 
+
+For the extent of the undertaking, the task will be tried as the program is being created.
+
+
+SCOPE
+
+Broadcasting Chat Server Application will be a book communication programming, it will actually want to impart between two PCs using point to point communication. 
+
+The restriction of Live Chat is it doesn't uphold sound discussions. To conquer this restriction, we are simultaneously working on developing better advances. 
+
+Organizations might want to have a communication programming wherein they can convey instantly within their association. 
+
+The way that the product utilizes an internal organization arrangement within the association makes it secure from outside assaults.
+
+
+Software Engineering Paradigm
+
+This Software Engineering Paradigm is an interaction that portrays the assignments that are needed for the building of excellent programming systems and defining the SDLC cycle model of the Project. 
+
+Subsequent to gathering every one of the prerequisites of the client and by ordering of the exercises
+
+.End of the stage and the yield of one stage is the input of another stage. The yield of each stage is to be steady with the general necessity of the system.
+
+Agile model will decide for Chatapp this approach permits continuous cycle (little arrival of operating system) of improvement and testing the product. Association which is looking for a self-maintaining component where
+
+
+
+
+
+Data Model
+
+DFD (Data Flow Diagram)
+
+Data flow diagrams are used to graphically represent the flow of data in a Chatapp .DFD describes the processes that are involved in a system to transfer data from the input to the file storage and reports generation.
+
+There are four basic symbols that are used to represent a data-flow diagram.
+
+
+
+SYSTEM DESIGN
+
+MODULES
+
+1.	User Module
+a.	login
+b.	create new group
+c.	send message
+
+
+
+
+DATA INTEGRITY AND CONSTRAINTS
+
+Data integrity is the precise and predictable section of data all through its lifecycle. Systems have no need for inaccurate or in any case undermined data – and that isn't in any event, scratching the outside of the issues introduced by the deficiency of touchy data. This is the reason numerous security arrangements center so stringently around maintaining the integrity of data. 
+
+The chat app data integrity will zero in on Recoverability in case of system breakdown, and so on Accessibility for regular tasks, and so on Recognizability to follow the path from obtaining the data along the client venture. Network to see relationships, and so forth
+
+
+
+DATABASE DESIGN
+
+The tables of the database are the following which describe the database of this CRM system.
+
+
+User	Datatype
+
+displayName : "string"
+email : "string"
+name : "string"
+photoURL : "string"
+uid : "autogenrate"
+
+
+MESSAGE 	Datatype
+
+fire : string 
+firecount : string
+heart : string 
+heartcount : number
+like count : number
+text : string
+timestamp : string 
+uid : string
+userimg : string  
+username : string  
+
+
+PUT IMAGES
+
+USERINTERFACES 
+
+
+
+
+
+TESTING
+
+System testing will be conducted after the integration of all modules of the CRM system. So, we conduct the unit testing and integration techniques which give the expected output.
+
+Test Case
+
+Test cases of the system are a set of conditions and variables which will determine whether the system will work correctly or not. The following are the some test case:-
+
+1 
+
+2
+
+3
+
+
+
+SYSTEM SECURITY
+
+➔ Safety Security
+
+CHATAPP will be accessible 24 hours per day, 7 days per week. CHAT APP application consistently provides real-time information. Chat can recuperate from equipment disappointments, power disappointments, and other characteristic emergencies and move back the databases to their latest legitimate state.
+
+➔ System Security
+
+The System utilizes the React structure which offers local help that shields the code from XSS assaults. The element kicks in consequently and ensures the database all the while. Also, when you convey your website on HTTP, all the information traded including passwords and others are sent in plain substance. This could be effectively taken by anybody in the middle of the transmission. So to guard this information, consistently send your web applications on HTTPS to protect its delicate information.
+
+➔ Privacy
+
+All users should be properly authenticated before allowed entry into the system Authentication will be based on an Email address and a password of a google account. All activities on the system must be logged. REACT uses “providers” and “guards” to facilitate the authentication process. The purpose of “guards” is to authenticate users for each request they make, while “providers” facilitate to retrieve back the users from the database.
+
+•	Cost Estimation of the Project 
+
+• 	Not much cost estimation 
+
+
+
+Report
+
+This report is a short portrayal of Chating app working. It will depict the modules and their usefulness of modules and the design and the planning outline which alludes to the scheduling of the project and furthermore define the input and the yield of the framework.
+
+
+FUTURE SCOPE
+
+
+1.	Online video calling services and better chatting experience and user interface.
+
+2.	Improving user interfaces.
+
+
+
+APPENDICES
+
+1. CODING 
+
+2. BIBLIOGRAPHY
+
+

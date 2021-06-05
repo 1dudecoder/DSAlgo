@@ -1,0 +1,462 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch LLtoqueue",
+            "request": "launch",
+            "mainClass": "stack.adapter.LLtoqueue",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch LLtostack",
+            "request": "launch",
+            "mainClass": "stack.adapter.LLtostack",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch client",
+            "request": "launch",
+            "mainClass": "stack.client",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch targetsum",
+            "request": "launch",
+            "mainClass": "timecomplexity.targetsum",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch quicksort",
+            "request": "launch",
+            "mainClass": "sorting.quicksort",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestpathmaze",
+            "request": "launch",
+            "mainClass": "recursionlevelup.longestpathmaze",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch mazepathset1",
+            "request": "launch",
+            "mainClass": "recursionlevelup.mazepathset1",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch genricmazepath",
+            "request": "launch",
+            "mainClass": "recursionlevelup.genricmazepath",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch Result",
+            "request": "launch",
+            "mainClass": "Result",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch permutations",
+            "request": "launch",
+            "mainClass": "recursionlevelup.permutations",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch get_subsequence",
+            "request": "launch",
+            "mainClass": "recursionlevelup.get_subsequence",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "recursionarray.Main",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch subswquence",
+            "request": "launch",
+            "mainClass": "recursionarray.subswquence",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrstore",
+            "request": "launch",
+            "mainClass": "recursionarray.arrstore",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch lastindex",
+            "request": "launch",
+            "mainClass": "recursionarray.lastindex",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch firstindex",
+            "request": "launch",
+            "mainClass": "recursionarray.firstindex",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch maxvaluearr",
+            "request": "launch",
+            "mainClass": "recursionarray.maxvaluearr",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch displayarr",
+            "request": "launch",
+            "mainClass": "recursionarray.displayarr",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch reversearray",
+            "request": "launch",
+            "mainClass": "recursionarray.reversearray",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch displyarray",
+            "request": "launch",
+            "mainClass": "recursionarray.displyarray",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch fabonacii",
+            "request": "launch",
+            "mainClass": "recursion.fabonacii",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch increasing",
+            "request": "launch",
+            "mainClass": "recursion.increasing",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch removearr",
+            "request": "launch",
+            "mainClass": "myarray.removearr",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch remov",
+            "request": "launch",
+            "mainClass": "arrylist.remov",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch removee",
+            "request": "launch",
+            "mainClass": "ARRAYLISTT.removee",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch bufferdifference",
+            "request": "launch",
+            "mainClass": "Stringggs.bufferdifference",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringbui",
+            "request": "launch",
+            "mainClass": "Stringggs.stringbui",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch checkhi",
+            "request": "launch",
+            "mainClass": "Stringggs.checkhi",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch compression",
+            "request": "launch",
+            "mainClass": "Stringggs.compression",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch pallendrom",
+            "request": "launch",
+            "mainClass": "Stringggs.pallendrom",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch rotate90",
+            "request": "launch",
+            "mainClass": "second.rotate90",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch spiral",
+            "request": "launch",
+            "mainClass": "second.spiral",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch wakanda2",
+            "request": "launch",
+            "mainClass": "second.wakanda2",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch wakanda1",
+            "request": "launch",
+            "mainClass": "intro.wakanda1",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch firstnlast",
+            "request": "launch",
+            "mainClass": "intro.firstnlast",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch ceil_n_floor",
+            "request": "launch",
+            "mainClass": "intro.ceil_n_floor",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch one",
+            "request": "launch",
+            "mainClass": "Twodarry.one",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch basic",
+            "request": "launch",
+            "mainClass": "twodarray.basic",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch bineryfindarraydata",
+            "request": "launch",
+            "mainClass": "bineryfindarraydata",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch subset_of_array",
+            "request": "launch",
+            "mainClass": "subset_of_array",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch str",
+            "request": "launch",
+            "mainClass": "str",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch subarrys",
+            "request": "launch",
+            "mainClass": "subarrys",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch subarry",
+            "request": "launch",
+            "mainClass": "subarry",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch mutiply",
+            "request": "launch",
+            "mainClass": "mutiply",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch subtract",
+            "request": "launch",
+            "mainClass": "subtract",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch baseadditions",
+            "request": "launch",
+            "mainClass": "baseadditions",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch anytoanybase",
+            "request": "launch",
+            "mainClass": "anytoanybase",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch digitfrequency",
+            "request": "launch",
+            "mainClass": "digitfrequency",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnyBaseToDecimal",
+            "request": "launch",
+            "mainClass": "AnyBaseToDecimal",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnyBasetoDecimal",
+            "request": "launch",
+            "mainClass": "AnyBasetoDecimal",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch Decimaltoany",
+            "request": "launch",
+            "mainClass": "Decimaltoany",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch subtractarray",
+            "request": "launch",
+            "mainClass": "subtractarray",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch trail",
+            "request": "launch",
+            "mainClass": "trail",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch errow",
+            "request": "launch",
+            "mainClass": "errow",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch rotate",
+            "request": "launch",
+            "mainClass": "rotate",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch aa",
+            "request": "launch",
+            "mainClass": "aa",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch febonacci",
+            "request": "launch",
+            "mainClass": "febonacci",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch go",
+            "request": "launch",
+            "mainClass": "go",
+            "projectName": "pep java_305fdf80"
+        },
+        {
+            "type": "java",
+            "name": "Launch helo",
+            "request": "launch",
+            "mainClass": "helo",
+            "projectName": "pep java_305fdf80"
+        }
+    ]
+}
