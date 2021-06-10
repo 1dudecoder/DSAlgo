@@ -2,14 +2,20 @@ package stack;
 
 public class client {
     public static void main(String arg[]) throws Exception{
-        queue qu = new queue();
-        stack st = new stack();
+        dynamicstack ds  = new dynamicstack(2);
+        dynamicqueue dq = new dynamicqueue(2);
 
-        st.push(10);
-        System.out.println(st.pop()); 
+        dq.add(5);
+        dq.add(1);
+        dq.add(3);
+        dq.add(5);
+        dq.add(5);
 
-        qu.add(20);
-        System.out.println(qu.remove()); 
+
+
+        System.out.println(dq.maxsize());
+
+
 
     }
 }

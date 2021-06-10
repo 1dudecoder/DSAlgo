@@ -3,11 +3,11 @@ package stack;
 public class queue {
     private int[] arr;
     private int size;
-    private int maxsize;
+    private int maxsize; 
     private int front;
     private int back;
 
-    public void initlize(int data){
+    protected void initlize(int data){
         this.arr = new int[data];
         this.maxsize = data;
         this.size = 0;
@@ -21,6 +21,10 @@ public class queue {
 
     public queue(){
         initlize(5);
+    }
+
+    public int maxsize(){
+        return this.maxsize;
     }
     
     public void queueisEmpty() throws Exception{
