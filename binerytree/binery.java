@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class binery {
 
-    public class Node{
+    public static class Node{
         int data;
         Node right;
         Node left;
@@ -36,7 +36,7 @@ public class binery {
 
     // good methods
 
-    public void preorder(Node root, ArrayList<Integer> ans){
+    public static void preorder(Node root, ArrayList<Integer> ans){
         if(root == null){
             return;
         }
@@ -46,7 +46,7 @@ public class binery {
         preorder(root.right,ans);
     }
 
-    public void inorder(Node root, ArrayList<Integer> ans){
+    public static void inorder(Node root, ArrayList<Integer> ans){
         if(root == null){
             return;
         }
@@ -56,7 +56,7 @@ public class binery {
         inorder(root.right,ans);
     }
 
-    public void postorder(Node root, ArrayList<Integer> ans){
+    public static void postorder(Node root, ArrayList<Integer> ans){
         if(root == null){
             return;
         }
@@ -66,7 +66,7 @@ public class binery {
         ans.add(root.data);
     }
 
-    public int size(Node root){
+    public static int size(Node root){
         if(root == null){
             return 0;
         }
@@ -81,7 +81,7 @@ public class binery {
     }
 
 
-    public int sum(Node root){
+    public static int sum(Node root){
         if(root == null){
             return 0;
         }
@@ -95,7 +95,7 @@ public class binery {
     }
 
 
-    public int max(Node root){
+    public static int max(Node root){
         if(root == null){
             return -(int)1e9 ;
         }
@@ -111,7 +111,7 @@ public class binery {
     
 
     
-    public int min(Node root){
+    public static int min(Node root){
         if(root == null){
             return -(int)1e9 ;
         }
@@ -125,7 +125,7 @@ public class binery {
         //return (root == null) ? -(int) 1e9 : Math.min(Math.min(min(root.left),min(root.right)),root.data); 
     }
 
-    public int height(Node root){
+    public static int height(Node root){
         if(root == null){
             return 0;
         }
@@ -137,8 +137,9 @@ public class binery {
 
         // return root == null ? -1 : Math.max(height(root.left), height(root.right)) + 1;
     }
+    
 
-    public int countleaf(Node root){
+    public static int countleaf(Node root){
 
         if(root == null){
             return 0;
@@ -153,7 +154,8 @@ public class binery {
         return a + b;
     }
 
-    public void exactlyonchild(Node root, ArrayList<Integer> ans){
+
+    public static void exactlyonchild(Node root, ArrayList<Integer> ans){
         if(root == null || root.left == null && root.right == null){
             return;
         }
@@ -166,7 +168,8 @@ public class binery {
         exactlyonchild(root.right,ans);     
     }
 
-    public int countexactlyonchild(Node root){
+
+    public static int countexactlyonchild(Node root){
         if(root == null || root.left == null && root.right == null){
             return 0;
         }
@@ -182,5 +185,179 @@ public class binery {
         return sum;
     }
 
-    
+
+    public static boolean finddata(Node root, int data){
+        if(root == null){
+            return false;
+        }
+
+        if(root.data == data){
+            return true;
+        }
+
+        return finddata(root.left, data) || finddata(root.right, data); 
+    }
+
+
+    public static boolean nodeToRootPath(Node node, int data, ArrayList<Node> ans) {  //return the path from where you find the data
+        if (node == null)
+            return false;
+
+        if (node.data == data) {
+            ans.add(node);
+            return true;
+        }
+        boolean res = nodeToRootPath(node.left, data, ans) || nodeToRootPath(node.right, data, ans);
+        if (res)
+            ans.add(node);
+
+        return res;
+    }
+
+    public static ArrayList<Node> nodeToRootPath(Node root, int data) {
+        ArrayList<Node> ans = new ArrayList<>();
+        nodeToRootPath(root, data, ans);
+        return ans;
+    }
+
+
+
+// second method ask in leetcode or online cp websites
+    public static ArrayList<Node> nodeToRootPath02_(Node node, int data) {
+        if (node == null)
+            return null;
+
+        if (node.data == data) {
+            ArrayList<Node> list = new ArrayList<>();
+            list.add(node);
+            return list;
+        }
+
+        ArrayList<Node> left = nodeToRootPath02_(node.left, data);
+        if (left != null) {
+            left.add(node);
+            return left;
+        }
+
+        ArrayList<Node> right = nodeToRootPath02_(node.right, data);
+        if (right != null) {
+            right.add(node);
+            return right;
+        }
+
+        return null;
+    }
+
+    public static ArrayList<Node> nodeToRootPath02(Node node, int data) {
+        ArrayList<Node> ans = nodeToRootPath02_(node, data);
+        return ans != null ? ans : new ArrayList<>();
+    }
+
+    public static void KLevelsDown(Node node, int k, Node block, ArrayList<Integer> ans) {
+        if (node == null || k < 0 || node == block)
+            return;
+
+        if (k == 0) {
+            ans.add(node.data);
+            return;
+        }
+
+        KLevelsDown(node.left, k - 1, block, ans);
+        KLevelsDown(node.right, k - 1, block, ans);
+    }
+
+
+    public static ArrayList<Integer> kaway(Node node, int data, int k) {
+        ArrayList<Node> list = new ArrayList<>(); 
+        nodeToRootPath(node, data, list);   //give a list of path to the data node e.i 2,3,4,5,6,7
+
+        ArrayList<Integer> ans = new ArrayList<>();   
+        Node block = null;         //bydefault making null so it can not block the 1 node
+        for (int i = 0; i < list.size(); i++) {  
+                                    // block for 0 = null , for 1 = k-i     
+            KLevelsDown(list.get(i), k - i, block, ans);    //so that it can not go to same directions again and to the block nodes
+            block = list.get(i);  //getting aready visited noted and blocking it .
+        }
+
+        return ans;           //returning the add kaways nodes
+    } 
+
+
+    // this is also another way to kaway quastion not able to understand so ignore and follow uper onces
+    public static int kaway2(Node node, int data, int k, ArrayList<Integer> ans) {
+        if (node == null)
+            return -1;
+
+        if (node.data == data) {
+            KLevelsDown(node, k, null, ans);
+            return 1;
+        }
+
+        int ld = kaway2(node.left, data, k, ans);
+        if (ld != -1) {
+            KLevelsDown(node, k - ld, node.left, ans);
+            return ld + 1;
+        }
+
+        int rd = kaway2(node.right, data, k, ans);
+        if (rd != -1) {
+            KLevelsDown(node, k - rd, node.right, ans);
+            return rd + 1;
+        }
+
+        return -1;
+    }
+
+    //static is a bed practice so avoid using staTIC VARIABLES
+    static Node prev = null;
+    public static boolean isBST(Node node) {   
+        if (node == null)
+            return true;
+
+        if (!isBST(node.left))
+            return false;
+
+        if (prev != null && prev.data > node.data)
+            return false;
+        prev = node;
+
+        if (!isBST(node.right))
+            return false;
+        return true;
+    }
+
+
+    public static class isBSTPair {
+        boolean isBST = true;                   //no need of this actually
+        int maxEle = -(int) 1e9;        
+        int minEle = (int) 1e9;
+    }
+
+    public static isBSTPair isBST_02(Node node) {
+        if (node == null)
+            return new isBSTPair();   //returning isbstpair  
+
+        isBSTPair left = isBST_02(node.left);     //calling isBST_02 left root
+        if (!left.isBST)         //left isbst is true
+            return left;         
+
+        isBSTPair right = isBST_02(node.right);
+        if (!right.isBST)          //right isbst is true
+            return right;
+
+        isBSTPair self = new isBSTPair();
+        self.isBST = false;        //doing self to false becuse if down conditions not met if will return false
+                                    //means conditions is false
+
+        if (left.maxEle < node.data && right.minEle > node.data) {     //cheacking if right and left node is small and bigger then me then i am also be bsttree
+            self.maxEle = Math.max(right.maxEle, node.data);               
+            self.minEle = Math.min(left.minEle, node.data);
+            self.isBST = true;
+        }
+
+        return self;
+    }
+
+
+
 }
