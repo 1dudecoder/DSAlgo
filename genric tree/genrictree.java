@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class genrictree {
 
@@ -267,8 +268,27 @@ public class genrictree {
         return num;
     }
 
-
-
+//this treversal technique is called bfs and dfs is normal onces we actually do in
+    public static void levelOrder(Node root){
+        LinkedList<Node> que = new LinkedList<>();      
+        que.addLast(root);
+        int level = 0;
+        while(que.size() != 0){
+            int size = que.size();
+            while(size-- > 0){
+                Node rn = que.removeFirst();
+                
+                System.out.print(rn.data + " ");
     
+                for(Node child : rn.childs) {
+                    que.addLast(child);
+                }
+            }
+            level++;
+        }
+        System.out.print(".");
+      }
+
+      
 
 }

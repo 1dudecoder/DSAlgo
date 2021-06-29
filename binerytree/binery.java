@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class binery {
 
@@ -356,6 +357,31 @@ public class binery {
         }
 
         return self;
+    }
+
+
+    public static void levelorder(Node root){
+
+        LinkedList<Node> que = new LinkedList<>();  //removefirst  , addlast
+        que.addLast(root);
+        
+        int level = 0;
+        while(que.size() != 0){
+            int size = que.size();
+            while(size-- > 0){
+                Node rn = que.removeFirst();
+                System.out.print(rn.data + " ");
+
+                if(rn.left !=  null){
+                    que.addLast(rn.left);
+                }
+                if(rn.right !=  null){
+                    que.addLast(rn.right);
+                }
+            }
+            level++;
+            System.out.println();
+        }
     }
 
 
