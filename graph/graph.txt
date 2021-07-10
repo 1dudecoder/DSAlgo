@@ -1,0 +1,32 @@
+BFS AND DFS
+
+
+BFS 
+- > R M* W A*
+
+REMOVE and MARK  
+
+ -> MARK MEANS VISIT HOGYA hai or STAR means agr ye phele se marked hota to hum continue krdengye 
+
+Work
+
+-> apna kam krna jese print krna ya baki kam krna
+
+A 
+
+-> Add means apne near k nabors ko visit krdo agr wo visited nhi hai to  - > Star means sirfh wo nabor add kijiye wo visited nhi hai  
+
+
+-> provide shortest path
+-> bst also help in just detecting cyclegraph tell in just yes and no espe count mt krna ye kbhi kbhi shi ans deta hai baki nhi deta to dont relay on it 
+-> it provide shorted length of path in term of lenght in graph
+-> cycle pta kese chlti hai agr apka visited element dubara ajata hai to wo cycle graph hai 
+
+
+forest -forest graph gcc should be 1 cycle should be 0
+
+spread infections -> k time infections kitne vertex ko effect krega
+
+
+
+
